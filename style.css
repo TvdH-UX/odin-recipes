@@ -1,10 +1,28 @@
-h1 {
+h1,
+h2 {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 40px;
 }
 
-ul {
-    list-style: none;
+h1 {
+    font-size: 40px;
+    color: rgb(54, 54, 54);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+img {
+    width: auto;
+    height: 400px;
 }
 
 a {
@@ -25,10 +43,30 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: wavy;
+    text-decoration: underline;
+    text-decoration-style: wavy;
     color: purple;
 }
 
 a:active {
     color: purple;
+}
+
+ul,
+ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+}
+
+.nav-options {
+    list-style: none;
+}
+
+.ingredient-list {
+    list-style: circle;
+}
+
+.cooking-steps {
+    list-style: upper-alpha;
 }
